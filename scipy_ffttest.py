@@ -1,13 +1,11 @@
 # -*- coding: utf-8 -*-
 """
 Created on Mon Mar 18 15:33:11 2013
-Scipyを用いたFFTとノイズ除去
-@author: ***
+Scipyを用いたFFTと逆FFTによるノイズ除去
+@author: ryu
 """
 
 import numpy as np
-import scipy as sp
-from scipy import signal #for filtering
 from scipy import fftpack #for fft
 import matplotlib as mpl
 import matplotlib.pyplot as plt
