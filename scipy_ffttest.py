@@ -57,5 +57,5 @@ plt.plot(t,y, color='r', linewidth=1, label='ideal')
 plt.xlabel("time [s]")
 plt.ylabel("Value")
 plt.legend(loc=1,fancybox=True)
-
+plt.savefig("scipyffttest.png", dpi=300)
 plt.show()
